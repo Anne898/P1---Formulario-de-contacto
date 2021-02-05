@@ -1,0 +1,98 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#content1 {
+    background-color: rgb(255, 255, 255);
+    grid-area: content1;
+    border-radius: 15px;    
+    margin: 100px 300px 100px 300px;
+    height: 600px;
+
+}
+
+body {
+    background-image: url('./img/mountains-55067_640.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.form-container {
+    padding: 128px 64px;
+}
+
+.contact-title {
+    text-align: center;
+    margin: 50px 0 50px 0;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 35px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+}
+
+.contact-label {
+    display: block;
+    margin: 10px 50px 10px 50px;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.70);
+    font-weight: 500;
+}
+
+.form-input {
+    display: block;
+    width: 80%;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    border-radius: 3px;
+    line-height: 25px;
+    margin: 10px 50px 10px 50px;
+}
+
+.message {
+    margin: 10px 50px 10px 50px;
+}
+
+.form-submit-button {
+    width: 50%;
+    background-color: #ff8484b2;
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    height: 40px;
+    margin-top: 50px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .img-container {
+        display: none;
+    }
+
+    .form-input {
+        width: 80%;
+    }
+
+    .form-submit-button {
+        width: 50%;
+    }
+}
